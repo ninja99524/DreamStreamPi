@@ -1,0 +1,274 @@
+⸻
+
+🧠 DreamStream Replit Prompt (Frontend-Only Static Web App for Vercel)
+
+Build a React + Vite + TypeScript frontend-only static web app called DreamStream, designed to support lucid dreaming. It should be optimized for hosting on Vercel, require no backend, and include no APIs, no login, and no user data.
+
+⸻
+
+✅ Features & Requirements
+	•	React + Vite + TypeScript (fully static)
+	•	No backend, no Supabase, no API keys, no login
+	•	Designed for both mobile and desktop use
+	•	Mobile app version must send local recurring notifications every 45 minutes using the included MP3 tone
+	•	Web version shows download link + instructions for manual tone reminders
+	•	App logo (included as an attachment to this prompt), MP3 reality check tone (included as an attachment to this prompt), and all playlist data (links included in this prompt) included as static assets
+	•	ToS and Privacy Policy open as separate pages, not modals or popups
+	•	All text, playlists, and legal content hardcoded – no CMS required
+
+⸻
+
+📁 Static Assets (Included as Attachments)
+
+Place the following in the public/ folder:
+	•	/reality-check-tone.mp3 – the embedded lucid dreaming tone
+	•	/dreamstream-logo.png – DreamStream logo
+
+⸻
+
+🛠️ App Behavior
+
+✅ Homepage:
+	•	App title and logo at the top
+	•	Short welcome message + dream instructions (see below)
+	•	Embedded MP3 player for /reality-check-tone.mp3 with a download button
+	•	7 playlists labeled A through G, each with deep links to Qobuz, Tidal, Apple Music, Spotify, Amazon Music, and Deezer — in that exact order
+	•	Do not include playlist durations, track counts, or total length
+	•	Footer with full legal notice (see below)
+
+⸻
+
+📚 Homepage Instructions
+
+How to Use DreamStream for Lucid Dreaming
+
+Play one of the provided playlists while you sleep which will open in your preferred music streaming app. Each playlist includes a subtle reality check tone — the same tone that will repeat throughout your day.
+
+During the day:
+	•	If you’re using the DreamStream mobile app, you’ll get a local notification every 45 minutes with the reality check reminder tone. No setup required.
+	•	If you’re using the web app, download the tone and set a recurring alarm or reminder manually on your device every 45 minutes.
+
+Why It Works
+By consistently associating a specific reality check reminder tone with the action of performing a reality check throughout your waking hours, you are conditioning your mind. This training ensures that when the same tone plays intermittently within the provided sleep-time playlists, your subconscious will prompt you to perform a reality check within your dream — helping you realize that you’re dreaming.
+
+How to Do a Reality Check
+A reality check is a quick test to determine if you’re awake or dreaming. Try one of these whenever you hear the tone:
+	•	Try pushing your finger through your opposite palm
+	•	Pinch your nose shut and try to breathe through it
+	•	Look at text or a clock, look away, then look back
+
+What Happens in a Dream
+In dreams, reality often breaks down. Your finger might pass through your palm. Text may scramble or change when you look again. You might still breathe through a pinched nose. These impossible results are your cue that you’re dreaming — and that you can take control.
+
+Scientific research indicates the optimal frequency for performing reality checks is approximately 16 times per day at 45-minute intervals.
+
+⸻
+
+🎵 Playlist Sections (A–G)
+
+Each playlist section should look like this:
+
+Playlist A
+Qobuz | Tidal | Apple Music | Spotify | Amazon Music | Deezer
+
+Playlist B
+Qobuz | Tidal | Apple Music | Spotify | Amazon Music | Deezer
+...
+
+
+Do not include any metadata like track count, duration, or total time.
+
+The playlist links for each of those streaming services are listed below:
+
+Qobuz:
+Playlist A
+https://open.qobuz.com/playlist/34386984
+
+Playlist B
+https://open.qobuz.com/playlist/34387034
+
+Playlist C
+https://open.qobuz.com/playlist/34387018
+
+Playlist D
+https://open.qobuz.com/playlist/34387011
+
+Playlist E
+https://open.qobuz.com/playlist/34386999
+
+Playlist F:
+https://open.qobuz.com/playlist/34387024
+
+Playlist G
+https://open.qobuz.com/playlist/34386972
+
+
+
+
+Tidal:
+Playlist A
+https://tidal.com/playlist/91d63078-50d0-42c0-a355-892d4b6f8229
+
+Playlist B
+https://tidal.com/playlist/74fbb343-1cf1-45e8-894d-5fef7106b786
+
+Playlist C
+https://tidal.com/playlist/5cc4dc7a-af26-4b86-ac1f-10cfb0335616
+
+Playlist D
+https://tidal.com/playlist/9532e501-8eb7-49c6-86fc-0107c508ef88
+
+Playlist E
+https://tidal.com/playlist/482f1d7e-4922-4505-a89f-905e383b5705
+
+Playlist F
+https://tidal.com/playlist/e6ced075-85a9-4576-b860-2514219fe669
+
+Playlist G
+https://tidal.com/playlist/674c97dd-0ee8-4edf-9142-73d2f0db5d57
+
+
+
+Apple Music:
+Playlist A
+https://music.apple.com/us/playlist/playlist-a/pl.u-zPyLl4YseRXbVL5
+
+Playlist B
+https://music.apple.com/us/playlist/playlist-b/pl.u-zPyLl96IeRXbVL5
+
+Playlist C
+https://music.apple.com/us/playlist/playlist-c/pl.u-55D6ZNyS6a4WALp
+
+Playlist D
+https://music.apple.com/us/playlist/playlist-d/pl.u-4Joma4btJ9W7qle
+
+Playlist E
+https://music.apple.com/us/playlist/playlist-e/pl.u-qxylEeXI3bKqoM7
+
+Playlist F
+https://music.apple.com/us/playlist/playlist-f/pl.u-yZyVEAxTdN75LoX
+
+Playlist G
+https://music.apple.com/us/playlist/playlist-g/pl.u-yZyVE6VTdN75LoX
+
+
+
+
+Spotify:
+Playlist A
+https://open.spotify.com/playlist/1tVk6RZMW0nCSZgrrs2eCE?si=4DUADIDTRsS_c2c9aC8-Eg&pi=3JM3CUBPQhS9a
+
+Playlist B
+https://open.spotify.com/playlist/0ZLvWhboTULRycQUZ43z28?si=kKqn4eftT5Gr8UVxcX2z1w&pi=pdPklwxLTduLU
+
+Playlist C
+https://open.spotify.com/playlist/0gK8kjXy0n5BGxqaKxK4ue?si=OAd1YY1IQVeXtZpIubPl_Q&pi=Grg-58FfRc-Ak
+
+Playlist D
+https://open.spotify.com/playlist/7uEokYqc7tS8uzxTJCnx6g?si=Hr6-TIbcRB-04m9uCr2K7w&pi=Jh9-TCuITyenG
+
+Playlist E
+https://open.spotify.com/playlist/4ltaM1fAPsopa6VdXsdvUX?si=IVNzD36mSjiPjYDga0opHA&pi=bv5Mt0I_ThOpH
+
+Playlist F
+https://open.spotify.com/playlist/2l9oTq2cuZImaSZKWcJcd1?si=VOKzVHYdQB-oP8tfp-_BVQ&pi=gHKe9soeQMaMk
+
+Playlist G
+https://open.spotify.com/playlist/0s26p81us69vJsS1mGdJpY?si=XCliL2h_RQO7v0uCX8F6dw&pi=1Bb0XmgDS9efU
+
+
+
+Amazon Music:
+Playlist A
+https://music.amazon.com/user-playlists/5132e00271fd46b08dd5f50e04d63c60sune?ref=dm_sh_Ye68ZkLlIDfuGVVN5XmAz3Pef
+
+Playlist B
+https://music.amazon.com/user-playlists/31b32e42a88b4e6e8ed3c9d02deb627dsune?ref=dm_sh_Thk05C0cjamgxidOZ0VQJXgsX
+
+Playlist C
+https://music.amazon.com/user-playlists/b3bc1799e1b945d2bdeea15d8c242210sune?ref=dm_sh_zzGAYUuwymPe0Hd2V8NCU5WjK
+
+Playlist D
+https://music.amazon.com/user-playlists/3b4631b1c47c4825956d98ee8691b265sune?ref=dm_sh_7x3iBppJuvx2oHhvn0JTC6Osf
+
+Playlist E
+https://music.amazon.com/user-playlists/9f10044ae49d45eda74e44947ddbe2bfsune?ref=dm_sh_epd1bpRo3bO54ZzXQ8wxEbLaB
+
+Playlist F
+https://music.amazon.com/user-playlists/725c0b2eadf6447f9320f50ff2ef6f64sune?ref=dm_sh_4hcbQKCejSm69fLPUyPXm9lIu
+
+Playlist G
+https://music.amazon.com/user-playlists/e3de63b1371b4304a17e5871a76141b7sune?ref=dm_sh_DhoaR9yiFU4A8nNXUr9BsAr0q
+
+
+Deezer:
+Playlist A
+https://link.deezer.com/s/30BoSTR5SjvICHW12bwlz
+
+Playlist B
+https://link.deezer.com/s/30BoSTR5SjvICHW12bwlz
+
+Playlist C
+https://link.deezer.com/s/30BoSTR5SjvICHW12bwlz
+
+Playlist D
+https://link.deezer.com/s/30Bp0IAZqGmqrjdItmAsR
+
+Playlist E
+https://link.deezer.com/s/30Bp1jZ4gGQDKF3vOXJwV
+
+Playlist F
+https://link.deezer.com/s/30Bp1XthoLnhrZ7F8Z2ZP
+
+Playlist G
+https://link.deezer.com/s/30BoTNohUaYBCpTEw2m3A
+
+
+⸻
+
+📜 Terms of Service (Shown as Separate Page)
+
+Create a page (e.g. /terms) with the following content:
+
+Terms of Service
+Last updated: July 2025
+
+By accessing or using DreamStream, you agree to be bound by these Terms of Service. If you disagree with any part of the terms, do not use the app.
+
+Use at Your Own Risk
+DreamStream provides lucid dreaming tools and general information only. It is not a medical device or mental health treatment.
+
+Intellectual Property
+All text, audio, and design assets are the property of DreamStream or used with permission. You may not reuse or redistribute content without explicit permission.
+
+Modifications
+These terms may be updated at any time. Continued use of the app implies acceptance of the updated terms.
+
+⸻
+
+🔐 Privacy Policy (Shown as Separate Page)
+
+Create a page (e.g. /privacy) with the following content:
+
+Privacy Policy
+Last updated: July 2025
+
+DreamStream does not collect, store, or transmit any personal data.
+	•	No account creation or login
+	•	No cookies or tracking
+	•	No analytics tools
+
+Your use of the app is fully anonymous.
+
+If you do not agree with this policy, simply do not use the app.
+
+⸻
+
+🦶 Footer Text
+
+At the bottom of every page, include this footer:
+
+By using this site/app, you agree to our [Terms of Service] and [Privacy Policy].
+
+	•	These links must open /terms and /privacy as full standalone pages.
+	•	Do not use popups, overlays, or modals (a modal is a floating popup window that blocks the screen — we do not want this).
