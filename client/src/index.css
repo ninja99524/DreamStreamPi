@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: hsl(217, 91%, 6%);
+  --foreground: hsl(0, 0%, 98%);
+  --muted: hsl(240, 3.7%, 15.9%);
+  --muted-foreground: hsl(240, 5%, 64.9%);
+  --popover: hsl(217, 91%, 6%);
+  --popover-foreground: hsl(0, 0%, 98%);
+  --card: hsl(230, 15%, 15%);
+  --card-foreground: hsl(0, 0%, 98%);
+  --border: hsl(188, 100%, 50%);
+  --input: hsl(240, 3.7%, 15.9%);
+  --primary: hsl(188, 100%, 50%);
+  --primary-foreground: hsl(217, 91%, 6%);
+  --secondary: hsl(240, 3.7%, 15.9%);
+  --secondary-foreground: hsl(0, 0%, 98%);
+  --accent: hsl(188, 100%, 50%);
+  --accent-foreground: hsl(217, 91%, 6%);
+  --destructive: hsl(0, 84.2%, 60.2%);
+  --destructive-foreground: hsl(60, 9.1%, 97.8%);
+  --ring: hsl(188, 100%, 50%);
+  --radius: 0.5rem;
+  
+  /* Dream Theme Colors */
+  --dream-navy: hsl(217, 91%, 6%);
+  --dream-midnight: hsl(240, 15%, 15%);
+  --dream-cyan: hsl(188, 100%, 50%);
+  --dream-blue: hsl(198, 100%, 40%);
+  --dream-pink: hsl(338, 100%, 70%);
+  --dream-purple: hsl(267, 52%, 55%);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-inter antialiased text-foreground;
+    background: linear-gradient(135deg, var(--dream-navy) 0%, var(--dream-midnight) 50%, var(--dream-navy) 100%);
+    min-height: 100vh;
+  }
+}
+
+@layer utilities {
+  .gradient-text {
+    background: linear-gradient(135deg, var(--dream-cyan) 0%, var(--dream-pink) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .glow-border {
+    border: 1px solid hsl(188, 100%, 50%, 0.4);
+    box-shadow: 0 0 20px hsl(188, 100%, 50%, 0.2);
+  }
+  
+  .glow-hover {
+    transition: all 0.3s ease;
+  }
+  
+  .glow-hover:hover {
+    box-shadow: 0 0 30px hsl(188, 100%, 50%, 0.6), 0 0 40px hsl(188, 100%, 50%, 0.3);
+    transform: translateY(-2px);
+  }
+}
+
+@keyframes glow {
+  from { 
+    box-shadow: 0 0 20px hsl(188, 100%, 50%, 0.4); 
+  }
+  to { 
+    box-shadow: 0 0 30px hsl(188, 100%, 50%, 0.8), 0 0 40px hsl(188, 100%, 50%, 0.4); 
+  }
+}
+
+@keyframes float {
+  0%, 100% { 
+    transform: translateY(0px); 
+  }
+  50% { 
+    transform: translateY(-10px); 
+  }
+}
+
+@keyframes pulse-slow {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+.animate-glow {
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 3s ease-in-out infinite;
+}
+
+.font-inter {
+  font-family: 'Inter', sans-serif;
+}

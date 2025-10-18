@@ -1,0 +1,36 @@
+ext {
+    // ============================================
+    // SDK Versions
+    // ============================================
+    minSdkVersion = 23
+    compileSdkVersion = 35
+    targetSdkVersion = 35
+
+    // ============================================
+    // Java Settings
+    // ============================================
+    javaVersion = 17
+
+    // ============================================
+    // AndroidX Libraries
+    // ============================================
+    androidxCoreVersion = "1.15.0"
+    androidxAppCompatVersion = "1.7.0"
+    androidxActivityVersion = "1.9.2"
+    androidxFragmentVersion = "1.8.4"
+    androidxCoordinatorLayoutVersion = "1.2.0"
+    androidxWebkitVersion = "1.12.1"
+    coreSplashScreenVersion = "1.0.1"
+
+    // ============================================
+    // Testing Libraries
+    // ============================================
+    junitVersion = "4.13.2"
+    androidxJunitVersion = "1.2.1"
+    androidxEspressoCoreVersion = "3.6.1"
+
+    // ============================================
+    // Cordova / Build System
+    // ============================================
+    cordovaAndroidVersion = "10.1.1"
+}
