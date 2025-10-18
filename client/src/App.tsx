@@ -9,6 +9,7 @@ import Privacy from "@/pages/privacy";
 import Referrals from "@/pages/referrals";
 import Downloads from "@/pages/downloads";
 import NotFound from "@/pages/not-found";
+import PiInit from "./PiInit"; // <-- Import PiInit
 
 function Router() {
   return (
@@ -28,6 +29,7 @@ function App() {
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
         <Toaster />
+        <PiInit /> {/* <-- Add PiInit here so Pi SDK initializes */}
         <Router />
       </TooltipProvider>
     </QueryClientProvider>
